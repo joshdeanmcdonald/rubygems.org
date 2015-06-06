@@ -99,6 +99,6 @@ class User < ActiveRecord::Base
   end
 
   def total_rubygems_count
-    rubygems.with_versions.count
+    rubygems.count
   end
 end
